@@ -1,3 +1,6 @@
+body {
+    overflow: hidden;
+}
 .container {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
