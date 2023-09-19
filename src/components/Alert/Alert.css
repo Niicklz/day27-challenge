@@ -1,0 +1,88 @@
+.alert-container {
+    min-width: 340px;
+    min-height: 80px;
+    
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    padding-left: 1rem;
+    gap: .5rem;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+
+}
+
+
+.alert-title {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text {
+    font-size: 14px;
+    color: #aaa;
+    font-weight: bold;
+}
+
+.alert-success {
+border-left: 10px solid #47d764;
+}
+.alert-error {
+    border-left: 10px solid #ff355b;
+}
+.alert-warning {
+    border-left: 10px solid #ffc021;
+}
+
+.alert-info {
+    border-left: 10px solid #2f86eb;
+}
+
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(68px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(32px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
