@@ -30,7 +30,7 @@
     flex-direction: column;
     gap: 2rem;
     position: absolute;
-    bottom: 10px;
+    bottom: 60px;
     right: 20px;
     overflow: hidden;
 }
